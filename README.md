@@ -4,7 +4,9 @@
 
 ## Dataset
 
-This dataset includes information about individual rides made in a bike-sharing system by Ford covering the greater San Francisco Bay area in 2018. This dataset can be found <a href="https://s3.amazonaws.com/fordgobike-data/index.html">here</a>. Each month's data were downloaded individually and they were merged together before being used to perform analysis.15 variables which are the duration_sec, start_time, end_time, start_station_id, start_station_name, start_station_latitude, start_station_longitude, end_station_id, end_station_name, end_station_latitude, end_station_longitude, bike_id, user_type, member_birth_year, member_gender and bike_share_for_all_trip. It consist of about 1.86 million trips. Trips with user above 80 years old were dropped and missing values in member information were also dropped. Datatypes of columns were also adjusted and some new columns were created like months, day of the week, Age category.
+This dataset includes information about individual rides made in a bike-sharing system by Ford covering the greater San Francisco Bay area in 2018. This dataset can be found <a href="https://s3.amazonaws.com/fordgobike-data/index.html">here</a>. Each month's data were downloaded individually and they were merged together before being used to perform analysis.The dataset have 15 variables which are the duration_sec, start_time, end_time, start_station_id, start_station_name, start_station_latitude, start_station_longitude, end_station_id, end_station_name, end_station_latitude, end_station_longitude, bike_id, user_type, member_birth_year, member_gender and bike_share_for_all_trip. The dataset consists of about 1.86 million trip data. 
+
+For this project, trips with users above 80 years old were dropped and missing values in member information were also dropped. Datatypes of columns were also adjusted and some new columns were created like months, day of the week, Age category.
 
 
 ## Summary of Findings
