@@ -8,28 +8,13 @@ This dataset includes information about individual rides made in a bike-sharing 
 
 For this project, trips with users above 80 years old were dropped and missing values in member information were also dropped. Datatypes of columns were also adjusted and some new columns were created like months, day of the week, Age category.
 
-
 ## Summary of Findings
 
 After carry out exploratory data analysis, I found out that more trips were done around summer and less trips are done during winter. Also weekdays have more trips than weekends, although it was observed that trips on weekends seem to be longer. The age distribution seemed to be a bit skewed to the left and which majority of users fall between age 30-35. And most trips last between 5-10mins. The prevalent gender that partakes in trips are Males, however females tend to go for longer trips. When finding the percentage distribution of user types of which there are two user types, It was seen that customers user type are very few and they do not partake in bike_sharing_for_all_trips(which has more cheaper bike sharing fee). Trips mostly occur between **7 to 9 hours of the morning** and around **16 hours and 18hours in the evenings**. However during the weekends, It is seen that trips mostly take place between 11 to 18 hours of the day.
 
-
-## Key Insights from Analysis
-
-
-- Majority of users fall between age ranges 30-35.
-- During weekdays, trips mostly occur the mornings and evenings and during weekends it occurs between late mornings and evening.
-- Most trips last for about 5 to 10 mins
-- The majority of users are Males.
-- More trips happen during summer period and the least numbe rof trips happens during Winter.
-- Female Users go on longer trips. 
-- Longer trips occur during the weekends
-- There are two usertypes(Customer and Subscribers) and Only subscribers can partake in bike sharing
-- Customer user types go for longer trips
-
-
 ## Key Insights for Presentation
 
 Insights gotten from the exploratory data analysis were presented on a slide deck in jupyter note. For the presentation, I focused on the likely varibales that will influence trip counts and duration. I begann with introducing  histogram of age distribution and tranformed histogram plot of trip duration. Then I introduced these variables showing their influence on trips turnup. The plots used are well visible. Appropriate plots and colours are used to show these key insights.
+
 This project was also done as part of Udacity's Data Analyst Nanodegree certification.
 
